@@ -1,6 +1,14 @@
 *{
     background-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+p{
+    color: green;
+}
+
+h1 {
     color: green;
 }
 
