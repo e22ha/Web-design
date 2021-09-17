@@ -1,6 +1,7 @@
 *{
     background-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
 }
 
 header,
@@ -10,9 +11,9 @@ footer {
 
 a {
     text-decoration: none;
-    color: #009632;
+    color:green;
     border-bottom: 10px solid;
-    border-bottom-color: #009632(15, 122, 252, 0.2);
+    border-bottom-color: green;
   }
   a:hover {
     text-decoration: none;
