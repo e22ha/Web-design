@@ -3,10 +3,15 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+header,
+footer {
+  text-align: center;
+}
+
 a {
     text-decoration: none;
     color: #009632;
-    border-bottom: 1px solid;
+    border-bottom: 10px solid;
     border-bottom-color: #009632(15, 122, 252, 0.2);
   }
   a:hover {
