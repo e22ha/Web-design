@@ -1,0 +1,55 @@
+body {
+  font-family: Open Sans;
+  background: #e7c9af;
+  color: black;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  align-content: left;
+  margin: 20px 20px 0px 20px;
+  border-radius: 5px;
+}
+
+h1, h2,h3 {
+  font-family: Montserrat;
+}
+h3{
+    margin: auto;
+}
+
+.Cardfolio {
+  display: flex;
+margin: auto;
+}
+
+.Team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+justify-content: center;
+}
+.Name {
+  width: auto;
+  margin: 5px;
+}
+.Card {
+  width: 500px;
+  margin: 10px 10px 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.089);
+}
+
+.About {
+  margin: 0px 20px 5px 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
