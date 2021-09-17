@@ -1,0 +1,17 @@
+*{
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #009632;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(15, 122, 252, 0.2);
+  }
+  a:hover {
+    text-decoration: none;
+    color: #00ce45;
+    border-bottom-color: rgba(208, 64, 0, 0.2);
+  }
+  
