@@ -43,3 +43,8 @@ main {
   flex-direction: row;
   margin: 10px;
 }
+
+.container1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
