@@ -2,16 +2,24 @@
   font-family: "Bookmania,bold", background-color= #fff;
   color: black;
   font-size: 128px;
+
 }
-.name {
+.Name {
   font-family: "Neue Haas Unica,light", background-color= #fff;
   color: black;
   font-size: 32px;
+  align-content: left;
+  margin: 20px 20px 0px 20px;
+  border-radius: 5px;
+  background-color:aqua;
 }
 .about {
   font-family: "Neue Haas Unica,Regular", background-color= #fff;
   color: black;
   font-size: 20px;
+  width: auto;
+  margin: 5px;
+  background-color:beige;
 }
 h4 {
   font-family: "Neue Haas Unica,Bold", background-color= #fff;
@@ -27,4 +35,10 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
 }
