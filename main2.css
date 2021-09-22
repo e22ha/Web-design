@@ -1,33 +1,34 @@
 * {
-  font-family: Bookmania,bold;
-  background-color: #fff;
   color: black;
-  font-size: 128px;
-
 }
 .Name {
-  font-family: Neue Haas Unica;
+  font-family: "Roboto Slab", serif;
   color: black;
-  font-size: 32px;
-  align-content: left;
-  background-color:aqua;
-  margin: 50px;
+  font-size: 80px;
+  line-height: 25%;
+  text-align: left;
+  width: 35%;
+  margin: 70px;
 }
-.about {
-  font-family: Neue Haas Unica,Regular;
+.About{
+    margin: 50px;
+    width: 50%;
+}
+.content {
+  font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 20px;
-  width: auto;
-  background-color:beige;
-  margin: 50px;
+  
+  margin-top: 25%;
+  vertical-align: 20%;
 }
+
 h4 {
-  font-family: Neue Haas Unica,Bold;
   color: black;
   font-size: 16px;
 }
 header {
-  font-family: Neue Haas Unica,Regular;
+  font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 16px;
   margin-left: 20px;
@@ -37,8 +38,8 @@ header {
   flex-wrap: wrap;
   text-align: center;
 }
-main{
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
+main {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
 }
