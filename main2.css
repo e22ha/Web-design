@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'Stapel';
+  src: local('Stapel-Bold'), local('Stapel-Bold'),
+      url('font/Stapel-Bold/Stapel-Bold.woff2') format('woff2'),
+      url('font/Stapel-Bold/Stapel-Bold.woff') format('woff'),
+      url('font/Stapel-Bold/Stapel-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Bold'), local('Lato-Bold'),
+      url('font\Lato-Bold\Lato-Bold.woff2') format('woff2'),
+      url('font\Lato-Bold\Lato-Bold.woff') format('woff'),
+      url('font\Lato-Bold\Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
 * {
   color: black;
 }
@@ -10,15 +33,15 @@
   width: 35%;
   margin: 70px;
 }
-.About{
-    margin: 50px;
-    width: 50%;
+.About {
+  margin: 50px;
+  width: 50%;
 }
 .content {
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 20px;
-  
+
   margin-top: 25%;
   vertical-align: 20%;
 }
@@ -31,7 +54,8 @@ header {
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 16px;
-  height: 40px;
+  display: flex;
+  flex-direction: row;
 }
 main {
   display: flex;
@@ -40,16 +64,38 @@ main {
 }
 
 .container1 {
-  
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 100%;
-  margin-left: 20px;
-  margin-right: 20px;
+  justify-content: space-between;
+  width: 100%;
 }
+
 
 h1 {
   margin-left: 20px;
-
 }
+
+.logo {
+  text-align: left;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.Aviaseils{
+  font-family: "Stapel", "Bold", sans-serif;
+  color: #0c73fe;
+}
+
+.CIAN{
+  font-family: "Lato", "Bold", sans-serif;
+  color: #152242;
+}
+
+.Alfa{
+  font-family: "Segoi-UI", "Semi-Bold", sans-serif;
+  color: #EF3124;
+}
+
