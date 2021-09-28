@@ -6,7 +6,6 @@
       url('font/Stapel-Bold/Stapel-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
-
 }
 
 @font-face {
@@ -19,83 +18,155 @@
   font-style: normal;
 }
 
-
-
 * {
-  color: black;
+  color: #252022;
 }
-.Name {
-  font-family: "Roboto Slab", serif;
-  color: black;
-  font-size: 80px;
-  line-height: 25%;
-  text-align: left;
-  width: 35%;
-  margin: 70px;
+
+body{
+  position: relative;
+  width: 1400px;
+  height: 800px;
 }
-.About {
-  margin: 50px;
-  width: 50%;
+
+.img1{
+  position: absolute;
+  width: 400px;
+  height: 120px;
+  left: 105px;
+  top: 285px;
 }
+
+.img2{
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  left: 920px;
+  top: 585px;
+}
+
+.slogan {
+  position: absolute;
+  width: 560px;
+  height: 384px;
+  left: 120px;
+  top: 20px;
+  
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 120px;
+  
+  display: flex;
+  align-items: flex-start;
+
+  color: #252022;
+}
+
 .content {
+  position: absolute;
+  width: 560px;
+  height: 160px;
+  left: 720px;
+  top: 350px;
+  
   font-family: "Montserrat", sans-serif;
-  color: black;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 40px;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #252022;
+}
+
+.content2 {
+  position: absolute;
+  width: 560px;
+  height: 52px;
+  left: 720px;
+  top: 525px;
+  
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
+  line-height: 26px;
 
-  margin-top: 25%;
-  vertical-align: 20%;
+  display: flex;
+  align-items: flex-end;
+  
+  color: #252022;
 }
 
-h4 {
-  color: black;
-  font-size: 16px;
-}
-header {
+.slogan2 {
+  position: absolute;
+  width: 200px;
+  height: 36px;
+  left: 720px;
+  top: 600px;
+  
   font-family: "Montserrat", sans-serif;
-  color: black;
-  font-size: 16px;
-  display: flex;
-  flex-direction: row;
-}
-main {
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
-}
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
 
-.container1 {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-
-h1 {
-  margin-left: 20px;
+  align-items: flex-end;
+  
+  color: #252022;
 }
 
 .logo {
-  text-align: left;
+  position: absolute;
+  top: 5px;
+  left: 100px;
 }
 
-.sponsors {
+header {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  
   display: flex;
-  justify-content: right;
-  margin-right: 20px;
+  flex-direction: row;
+
+  color: #252022;
 }
 
 .Aviaseils{
+  position: absolute;
+  height: 18px;
+  left: 1162px;
+  top: 5px;
+
   font-family: "Stapel", "Bold", sans-serif;
   color: #0c73fe;
 }
 
 .CIAN{
+  position: absolute;
+  height: 18px;
+  left: 926px;
+  top: 5px;
+
   font-family: "Lato", "Bold", sans-serif;
   color: #152242;
 }
 
 .Alfa{
+  position: absolute;
+  height: 18px;
+  left: 1032px;
+  top: 5px;
+
   font-family: "Segoi-UI", "Semi-Bold", sans-serif;
   color: #EF3124;
 }
 
+a{
+  text-decoration: none;
+}
