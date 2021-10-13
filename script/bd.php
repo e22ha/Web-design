@@ -11,16 +11,19 @@
     $n = $_POST['name'];
     $r = $_POST['review'];
 
-    $sql = 'INSERT INTO reviews  VALUES ("'.$n.'","'.$r.'")';
+    $sql = 'INSERT INTO reviews(name, review)  VALUES ("'.$n.'","'.$r.'")';
     $result = mysqli_query($link, $sql);
 
     if ($result == false) {
     print("Произошла ошибка при выполнении запроса");
     }
+    else{
+        print("Всё успешно!");
+    }
 ?>
 
 <!-- 
-Добавить автоинкремент
+
 добавить больше полей
 при помощи select выдавать прошлые ответы пользователя
  -->

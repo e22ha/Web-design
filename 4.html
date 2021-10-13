@@ -18,14 +18,38 @@
     ></script>
   </head>
   <body>
-    <form class="form-horizontal" method="post" action="script/bd.php">
-      <label for="POST-name">Ваше имя:</label>
-      <input id="POST-name" type="text" name="name" />
-      <br />
-      <label for="POST-review">Ваш отзыв:</label>
-      <input id="POST-review" type="text" name="review" />
-      <br />
-      <input type="submit" value="Submit" />
-    </form>
+
+    <div class="container">
+      <form id="fData" class="form-horizontal" method="post" action="script/bd.php" >
+        <p>Оставьте отзыв</p>
+        <input id="POST-name" name="name" for="POST-name" type="name" placeholder="Имя"><br>
+        <input id="POST-review" name="review" for="POST-review" type="review" placeholder="Отзывы"><br>
+        <input type="submit" value="Submit"><br>
+        <div id="message" style="color: #319742; "></div>
+      </form>
+    
+      <div class="drops">
+        <div class="drop drop-1"></div>
+        <div class="drop drop-2"></div>
+        <div class="drop drop-3"></div>
+        <div class="drop drop-4"></div>
+        <div class="drop drop-5"></div>
+      </div>
+    </div>
+    <script>
+      $("#fData").on("submit", function(event){
+        event.preventDefault();
+        $.ajax({
+          url:'/script/bd.php',
+          method: 'POST',
+          dataType: 'html',
+          data: $(this).serialize(),
+          success: function(data){
+            $('#message').html(data);
+          }
+        });
+      });
+    </script>
   </body>
+
 </html>
