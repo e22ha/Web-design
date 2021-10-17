@@ -1,39 +1,108 @@
-html {
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 body {
-  text-align: center;
+  width: 1450px;
+  height: 88Ы0px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.container {
+h1{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  margin: 5% 0 0 5%;
+}
+
+h2{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 20px;
+  margin: 0 0 40% 5%;
+}
+
+.bax{
+  width: 280px;
+  height: 280px;
+  border: 3px solid #28FD30;
+  background-color: #28FD30;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
-  min-height: 100%;
+  float: left;
 }
 
-div {
-  background-color: red;
+.bix{
+  width: 280px;
+  height: 280px;
+  border: 3px solid #28FD30;
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  float: left;
 }
-input[type="text"] {
-  border: 1px solid green;
-  width: 100%;
-  height: 200px;
+
+.box{
+  width: 566px;
+  height: 280px;
+  border: 3px solid #28FD30;
+  display: flex;
+  float: left;
+}
+
+.bux{
+  width: 280px;
+  height: 566px;
+  border: 3px solid #28FD30;
+  display: flex;
+  float: left;
+}
+
+input[type="text"] textarea {
+  color: black;
+  border-color: transparent;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.input{
+  color:black;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.input-textarea{
+  padding: 29px 0 0 4%;
+  border-color: transparent;
+  min-width: 250px;
+  max-width: 550px;
+  min-height: 230px;
+  max-height: 560px;
+}
+
+.input-textareb{
+  padding: 29px 0 0 4%;
+  border-color: transparent;
+  min-width: 535px;
+  max-width: 550px;
+  min-height: 230px;
+  max-height: 560px;
 }
 
 input[type="submit"] {
-  text-decoration: none;
-width: 100%;
-  transition: all 0.3s;
+  border: 3px solid #28FD30;
+  background-color: #28FD30;
+  width: 100%;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0 0 190px 5%;
 }
 
-.text {
-  color: black;
+a{
+  text-decoration: none;
 }
