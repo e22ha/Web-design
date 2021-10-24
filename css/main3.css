@@ -1,6 +1,6 @@
 body {
   width: 1450px;
-  height: 88Ы0px;
+  height: 800px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -22,35 +22,38 @@ h2{
 }
 
 .bax{
-  width: 280px;
+  width: 279px;
   height: 280px;
-  border: 3px solid #28FD30;
+  border: 1px solid black;
   background-color: #28FD30;
   display: flex;
   flex-wrap: wrap;
   float: left;
 }
+.bax:hover,.bix:hover,.box:hover,.bux:hover{
+  border: 1px solid #28FD30;
+}
 
 .bix{
   width: 280px;
   height: 280px;
-  border: 3px solid #28FD30;
+  border: 1px solid black;
   display: flex;
   float: left;
 }
 
 .box{
-  width: 566px;
+  width: 560px;
   height: 280px;
-  border: 3px solid #28FD30;
+  border: 1px solid black;
   display: flex;
   float: left;
 }
 
 .bux{
   width: 280px;
-  height: 566px;
-  border: 3px solid #28FD30;
+  height: 560px;
+  border: 1px solid black;
   display: flex;
   float: left;
 }
@@ -92,7 +95,7 @@ input[type="text"] textarea {
 }
 
 input[type="submit"] {
-  border: 3px solid #28FD30;
+  border: 1px solid #28FD30;
   background-color: #28FD30;
   width: 100%;
   text-align: left;
