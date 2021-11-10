@@ -7,9 +7,12 @@
 }
 html{
   background-color: #02000F;
+}
+
+html,body{
   max-width:100%;
   overflow:hidden;
-}
+  }
 
 
 p {
