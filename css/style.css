@@ -7,6 +7,8 @@
 }
 html{
   background-color: #02000F;
+  max-width:100%;
+  overflow:hidden;
 }
 
 
