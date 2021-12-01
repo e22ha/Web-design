@@ -1,0 +1,95 @@
+html{
+    background: linear-gradient(45deg, #e9e654, #3ffb4f);
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+.container, .container1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+  .aud2, audio{
+      display: none;
+  }
+
+  .btn_play,.btn_pause,.btn_m,.btn_p{
+    background-color: #e9e654;
+    height: 70px;
+    width: 70px;
+    border-radius: 23%;
+    margin: 10px;
+    border: 0px ;
+    font-size: 2em;
+    /*background-image: url(../images/play.png);*/
+  }
+
+  
+
+  .controls{
+      flex-direction: column;
+      align-items: center;
+
+  }
+  ._1row, ._2row, ._0row{
+    flex-direction: row;
+  }
+  ._0row{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+
+  audio::-webkit-media-controls-panel {
+    background-color:#e704c100;
+    display: none;    
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #59d7db;
+    border-radius: 23%;
+    display: none;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: #3e9b9e;
+    display: none;
+  }
+
+  audio::-webkit-media-controls-mute-button{
+    background-color: #59d7db;
+    border-radius: 23%;
+    display: none;
+  }
+
+  audio::-webkit-media-controls-volume-slider-container{
+    background-color: #4bb1b4;
+    border-radius: 23%;
+    display: none;
+  }
+  audio::-webkit-media-controls-volume-slider{
+    background-color: #4bb1b4;
+    display: none;
+  }
+
+  audio::-webkit-media-controls-timeline-container,audio::-webkit-media-controls-timeline,  audio::-webkit-media-controls-volume-slider-container,audio::-webkit-media-controls-volume-slider,audio::-webkit-media-controls-seek-back-button,audio::-webkit-media-controls-seek-forward-button,audio::-webkit-media-controls-fullscreen-button,audio::-webkit-media-controls-rewind-button,audio::-webkit-media-controls-return-to-realtime-button ,audio::-webkit-media-controls-toggle-closed-captions-button{
+    display: none;
+  }
+
+  audio::-webkit-media-controls-current-time-display{
+    display: flex;
+  }
+
+  audio::-webkit-media-controls-time-remaining-display{
+    display: flex;
+  }
+
+  .time{
+    color: #000;
+    font-weight: bold;
+  }
+
+
